@@ -1,46 +1,47 @@
 
 body {
-  background-image: url("https://i.pinimg.com/originals/28/a2/88/28a288f5675e83c864503fb8c58a2d12.jpg");
-  height: 750px;
-  background-position: center;
-  background-repeat: repeat;
-  background-size: cover;
+    background-image: url("Resources/assets/images/cosmos.jpeg");
+    height: 750px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 .navbar {
   max-height: 50px;
 }
 .navigation .navbar-brand {
-  color: rgb(52, 149, 165);
+  color: rgb(57, 0, 50);
   margin-left: 0px;
   padding: inherit;
+  font-size:34px;
   font-weight: bold;
   background-color: rgb(255, 255, 255);
   font-family: cochin;
 }
 .navbar {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(145, 45, 205);
   font-size: 25px; 
 }
 .active, .dropdown-menu .dropdown-item:active a:hover {
-  background-color: rgb(255,255,255);
+  background-color: rgb(68, 16, 86);
 }
 .dropdown-item {
-  color: rgba(52, 150, 165, 0.75);
+  color: rgb(100, 35, 145);
 }
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
-  background-color: rgba(52, 150, 165, 0.75);
+  background-color: rgb(247, 72, 192);
 }
 
 .nav-link:hover {
-  background-color:rgba(52, 150, 165, 0.75);
+  background-color:rgb(20, 11, 68);
  }
 
 .navbar-brand:hover {
-color: rgb(45, 158, 175);
+color: rgb(222, 93, 33);
 }
 a {
-  color: rgb(231, 231, 231);
+  color: rgb(240, 158, 246);
   font-size: 15px;
 }
 
@@ -75,7 +76,7 @@ font-size: 16px;
   margin-top: 50px;
   margin-bottom: 60px;
   padding: 10px 30px 10px;
-  color: #ffffff;
+  color: #fda9fd;
   background-color: rgb(255, 255, 255);
 
 }
