@@ -7,13 +7,13 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="humidstyle.css">
     <title>Weather Dashboard</title>
 </head>
 <body>
     <div class="navigation">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" style="background-color: rgb(255,255,255);" href="landingpage.html">Latitude</a>
+            <a class="navbar-brand" style="background-color: rgb(255,255,255);" href="humidvisual.html">Latitude vs Humidity </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -23,6 +23,13 @@
 
                 <ul class="navbar-nav ml-auto">
 
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../landingpage.html"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../visualizations/data.html"><b>Data</b></a>
+                    </li>
                     <li class="nav-item dropdown">
 
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -31,24 +38,34 @@
                         </a>
 
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="visualizations/tempvisual.html">Max Temperature</a>
-                            <a class="dropdown-item" href="visualizations/humidvisual.html">Humidity</a>
-                            <a class="dropdown-item" href="visualizations/cloudvisual.html">Cloudiness</a>
-                            <a class="dropdown-item" href="visualizations/windvisual.html">Wind Speed</a>
+                            <a class="dropdown-item" href="../visualizations/tempvisual.html">Max Temperature</a>
+                            <a class="dropdown-item" href="../visualizations/humidvisual.html">Humidity</a>
+                            <a class="dropdown-item" href="../visualizations/cloudvisual.html">Cloudiness</a>
+                            <a class="dropdown-item" href="../visualizations/windvisual.html">Wind Speed</a>
                         </div>
 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../visualizations/comparison.html"><b>Comparison</b></a>
+                    </li>
 
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="visualizations/comparison.html"><b>Comparison</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="visualizations/data.html"><b>Data</b></a>
-                    </li>
+
 
                 </ul>
             </div>
         </nav>
     </div>
     <!--_____________________________________________________________________________________________________________________________________-->
+    <div class="container">
+        <div class="row">
+            <div class="box" style="padding: 10px;">
+
+                <img src="../Resources/assets/images/Fig2.png" class="visualization rounded float-left" alt="Max Temperature Graph" />
+
+
+
+            </div>
+        </div>
+    </div>
+
 </html>
